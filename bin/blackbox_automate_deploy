@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -x
+
+gpg --import /keys/seckeys.gpg
+blackbox_postdeploy
